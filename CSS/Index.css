@@ -1,0 +1,80 @@
+body {
+    font-family: 'Roboto Slab', serif;
+}
+
+i.icon.fa-linkedin:hover {
+    color: #0077B5;
+}
+
+i.icon.fa-github:hover {
+    color: #4183C4;
+}
+
+i.icon.fa-twitter:hover {
+    color: #55ACEE;
+}
+
+i.icon {
+    color: gray;
+}
+
+.none {
+    display: none;
+}
+
+.learnMoreBox {
+    text-align: center;
+    margin-bottom: 150px;
+}
+
+.learnMore {
+    font-size: 32px;
+    font-weight: bold;
+    color: #333;
+}
+
+.centerBox {
+    margin-top: 300px;
+    margin-bottom: 150px;
+}
+
+.homePageBox {
+    background: rgba(255, 255, 255, .5);
+    font-size: 55px;
+    text-align: center;
+    font-weight: bold;
+    border: solid 2px #333;
+}
+
+.padding {
+    padding-right: 5px;
+}
+
+.paddingR {
+    margin-left: 8px;
+}
+
+.carousel {
+    width: 463px;
+}
+
+span#showImages {
+    color: #337ab7;
+    cursor: pointer;
+}
+
+.imageHeaders {
+    position: absolute;
+    margin-left: 40%;
+    font-weight: bold;
+    font-size: 20px;
+    color: #fff;
+}
+
+.default {
+    margin-top: -20px;
+    background-image: url("../Images/background.jpg");
+    background-size: cover;
+    background-position: center top;
+    background-repeat: no-repeat;
+}

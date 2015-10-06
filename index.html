@@ -1,0 +1,175 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Cody Wisniewski Personal Website">
+    <meta name="author" content="Cody Wisniewski">
+
+    <title>Cody Wisniewski</title>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+    <link href="CSS/Index.css" rel="stylesheet">
+
+    <link href='http://fonts.googleapis.com/css?family=Roboto+Slab' rel='stylesheet' type='text/css'>
+
+    <script src="Scripts/Jquery-1.11.2.min.js"></script>
+    <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+    <script src="Scripts/Index.js"></script>
+</head>
+
+<body>
+<!-- Static navbar -->
+    <!-- test commit -->
+<nav class="navbar navbar-inverse">
+    <div class="container">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar"
+                    aria-expanded="false" aria-controls="navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" id="default" href="#">Cody Wisniewski</a>
+        </div>
+        <div id="navbar" class="navbar-collapse collapse">
+            <ul class="nav navbar-nav">
+                <li><a class="pageLinks" id="about" href="#about">About</a></li>
+                <li><a class="pageLinks" id="projects" href="#projects">Projects</a></li>
+                <li><a class="pageLinks" id="experience" href="#experience">Experience</a></li>
+                <li><a class="pageLinks" id="contact" href="#contact">Contact</a></li>
+            </ul>
+            <ul class="nav navbar-nav visible-xs">
+                <li>
+                    <a class="pull-left" href="https://www.linkedin.com/pub/cody-wisniewski/a5/184/855" title="LinkedIn Profile"><i class="fa fa-linkedin fa-2x icon"></i></a>
+                    <a class="pull-left" href="https://github.com/wisnieca" title="Github Profile"><i class="fa fa-github fa-2x icon"></i></a>
+                    <a class="pull-left" href="https://twitter.com/cwizz13" title="Twitter Profile"><i class="fa fa-twitter fa-2x icon"></i></a>
+                </li>
+            </ul>
+            <ul class="nav navbar-nav navbar-right hidden-xs" style="height: 50px;">
+                <li><a href="https://www.linkedin.com/pub/cody-wisniewski/a5/184/855" title="LinkedIn Profile"><i class="fa fa-linkedin fa-2x icon"></i></a></li>
+                <li><a href="https://github.com/wisnieca" title="Github Profile"><i class="fa fa-github fa-2x icon"></i></a></li>
+                <li><a href="https://twitter.com/cwizz13" title="Twitter Profile"><i class="fa fa-twitter fa-2x icon"></i></a></li>
+            </ul>
+        </div>
+        <!--/.nav-collapse -->
+    </div>
+</nav>
+<div class="container-fluid default">
+    <div class="container centerBox">
+        <div class="row homePageBox">
+                <span class="hero">Cody Wisniewski - Developer</span><br>
+                <span class="hero">With Passion for Web Development</span>
+        </div>
+    </div>
+    <div class="learnMoreBox">
+        <a href="#about" class="learnMore">Learn More >></a>
+    </div>
+</div>
+<div class="container about none">
+    <div class="jumbotron">
+        <div class="row">
+            <img src="Images/Me.jpg"/>
+            <div class="col-md-6">
+                My name is Cody Wisniewski and I am from a small town outside of Toledo, Ohio.
+                I am a third year Computer Science major and the University of Cincinnati.
+                Besides programming, I enjoy both playing and watching sports, mainly soccer, basketball, and tennis.
+                I enjoy playing video games, both classics and present day games. After school I would love
+                to have a job doing web development because that is my main passion.
+            </div>
+        </div>
+    </div>
+</div>
+<div class="container projects none">
+    <div class="jumbotron">
+        <div class="row">
+            <div class="col-md-8">
+                Me and my teammates created an Iphone app that takes in an image and manipulates it in many different ways.
+                The image is selected from the users photo library, and once selected the user can choose a type of manipulation,
+                for example gray scale, flipping it over either coordinate, and making it negative.
+                You can view the source <a target="_blank" href="https://github.com/Hazems-Camaroons/image-manipulation">here</a>.
+                 Or <span id="showImages">show</span> example images.
+            </div>
+            <div class="col-md-3"><img src="Images/AppStore.png"/></div>
+        </div>
+        <div class="row"><br></div>
+        <div class="row manipulatedImages none">
+            <div class="col-md-6">
+                <div class="item active">
+                    <span class="imageHeaders">Original</span>
+                    <img src="Images/Original.png" alt="Original">
+                </div>
+                <div class="item">
+                    <span class="imageHeaders">Gray Scale</span>
+                    <img src="Images/GrayScale.png" alt="Gray Scale">
+                </div>
+                <div class="item">
+                    <span class="imageHeaders">Flip Y</span>
+                    <img src="Images/Flip1.png" alt="Flip Y">
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="item">
+                    <span class="imageHeaders">Flip X</span>
+                    <img src="Images/Flip2.png" alt="Flip X">
+                </div>
+                <div class="item">
+                    <span class="imageHeaders">Negate</span>
+                    <img src="Images/Negate.png" alt="Negate">
+                </div>
+                <div class="item">
+                    <span class="imageHeaders">Negate Bands</span>
+                    <img src="Images/NegateBands.png" alt="Negate Bands">
+                </div>
+            </div>
+        </div>
+        <div class="row"><br></div>
+        <div class="row">
+            <div class="col-md-3"><img src="Images/Eclipse.png"/></div>
+            <div class="col-md-8">
+                Me and my group members created an eclipse plugin that is a requirements indexer.
+                It reads in text files and tokenizes, and indexes them. It can also do the same indexing on a projects
+                source code when read in from a location on your computer.
+                You can view the source <a target="_blank" href="https://github.uc.edu/ashcrang/softeng_lab1">here</a>.
+            </div>
+        </div>
+    </div>
+</div>
+<div class="container experience none">
+    <div class="jumbotron">
+        <div class="row">
+            <img src="Images/Whatifsports.gif"/>
+            <div class="col-md-8">
+                I have completed two co-ops at a company called <a href="http://www.whatifsports.com">WhatIfSports</a>,
+                a small company that is owned by Fox Sports, doing mainly web development.
+                Besides web development I did some improvements to our football simulation engine,
+                and also did some back end work for the Fox Sports Big Board Application on the Iphone.
+            </div>
+        </div>
+    </div>
+</div>
+<div class="container contact none">
+    <div class="jumbotron">
+        <div class="row">
+            <div class="col-md-6">
+                If you want to chat or would like me to be apart of your team, you can contact me a few different ways.
+                By email, phone, or use any of the links in the top right. Feel free to view and downloand my resume as well.
+            </div>
+            <div class="col-md-6">
+                <div class=""><i class="fa fa-envelope-o fa-2x icon padding"></i>
+                    <a href="mailto:cwisniewski94@gmail.com">cwisniewski94@gmail.com</a>
+                </div>
+                <div class=""><i class="fa fa-mobile-phone fa-2x icon padding paddingR"></i>
+                    &nbsp;&nbsp;419.206.2880
+                </div>
+                <div class=""><i class="fa fa-download fa-2x icon padding"></i>
+                    <a target="_blank" href="Attachments/Resume.pdf">Resume</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+</html>
