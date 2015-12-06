@@ -18,6 +18,22 @@ i.icon {
     color: gray;
 }
 
+table {
+    margin-top: 10px;
+}
+
+tr {
+    border-bottom: solid 1px #000;
+}
+
+td {
+    padding: 2px 0;
+}
+
+td.link {
+    width: 160px;
+}
+
 .none {
     display: none;
 }
